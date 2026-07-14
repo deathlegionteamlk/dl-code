@@ -1,6 +1,18 @@
 User-agent: *
 Allow: /
+Allow: /index.html
+Allow: /free-ai-code-editor.html
+Allow: /free-code-editor-windows.html
+Allow: /free-code-editor-mac.html
+Allow: /free-code-editor-linux.html
+Allow: /vscode-alternative.html
+Allow: /manifest.json
+Allow: /humans.txt
+Allow: /sitemap.xml
 Allow: /googlecLtky4UchHEfkgOZYDNgdtGwlBsz86GrtT6C1wOUNdU.html
+Allow: /BingSiteAuth.xml
+Allow: /favicon.png
+Allow: /og-image.png
 Disallow: /releases/download/
 Disallow: /actions/
 Disallow: /issues/
@@ -13,6 +25,37 @@ Disallow: /stargazers/
 Disallow: /watchers/
 Disallow: /network/
 Disallow: /graphs/
+
+# Explicitly allow major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
 
 # Sitemap location
 Sitemap: https://deathlegionteamlk.github.io/dl-code/sitemap.xml
