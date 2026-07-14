@@ -1,5 +1,21 @@
 User-agent: *
 Allow: /
+Allow: /googlecLtky4UchHEfkgOZYDNgdtGwlBsz86GrtT6C1wOUNdU.html
 Disallow: /releases/download/
+Disallow: /actions/
+Disallow: /issues/
+Disallow: /pulls/
+Disallow: /wiki/
+Disallow: /commits/
+Disallow: /branches/
+Disallow: /tags/
+Disallow: /stargazers/
+Disallow: /watchers/
+Disallow: /network/
+Disallow: /graphs/
 
+# Sitemap location
 Sitemap: https://deathlegionteamlk.github.io/dl-code/sitemap.xml
+
+# Crawl delay to be nice to GitHub infrastructure
+Crawl-delay: 1
