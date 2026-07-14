@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /releases/download/
-
-Sitemap: https://deathlegionteamlk.github.io/dl-code/sitemap.xml
