@@ -1,39 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/0.9">
+
   <url>
     <loc>https://deathlegionteamlk.github.io/dl-code/</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://deathlegionteamlk.github.io/dl-code/og-image.png</image:loc>
+      <image:title>DL Code — Free AI Code Editor</image:title>
+      <image:caption>DL Code editor with built-in AI assistant</image:caption>
+    </image:image>
   </url>
+
   <url>
     <loc>https://deathlegionteamlk.github.io/dl-code/#features</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
+
   <url>
     <loc>https://deathlegionteamlk.github.io/dl-code/#download</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://deathlegionteamlk.github.io/dl-code/#ai</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://deathlegionteamlk.github.io/dl-code/#builder</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://deathlegionteamlk.github.io/dl-code/#faq</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <url>
+    <loc>https://github.com/deathlegionteamlk/dl-code/releases/latest</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/deathlegionteamlk/dl-code</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
