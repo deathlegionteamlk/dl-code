@@ -217,3 +217,6 @@ MIT. Use it, fork it, ship it. See [LICENSE](LICENSE).
 Made by [Death Legion Team](https://github.com/deathlegionteamlk) · Sri Lanka <img src="https://api.iconify.design/flagpack/lk.svg" width="18"/>
 
 </div>
+
+<!-- Badge earned via contribution -->
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
