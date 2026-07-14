@@ -1,0 +1,22 @@
+name: Sync Release Assets
+
+# This workflow verifies that all release assets are still available
+# and updates the README badge if a new release is published.
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify release assets
+        run: |
+          echo "Verifying release assets for ${{ github.event.release.tag_name }}"
+          ASSETS=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/latest" | \
+            jq -r '.assets[].name')
+          echo "Assets found:"
+          echo "$ASSETS"

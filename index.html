@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DL Code — Free AI-Powered Code Editor for Windows, Mac &amp; Linux</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="DL Code is a free, cross-platform code editor with built-in AI assistant, agentic app builder, syntax highlighting for 60+ languages, integrated terminal, Git, and unlimited free AI via Ollama. Download for Windows, macOS, and Linux." />
+  <meta name="keywords" content="code editor, AI code editor, free code editor, cross-platform IDE, claude code editor, ollama code editor, alternative to vscode, jetbrains alternative, monaco editor, electron code editor, agentic builder, ai coding assistant" />
+  <meta name="author" content="Death Legion Team" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://deathlegionteamlk.github.io/dl-code/" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="DL Code — Free AI-Powered Code Editor" />
+  <meta property="og:description" content="A modern cross-platform code editor with built-in Claude AI, agentic app builder, and unlimited free AI via Ollama. Download for Windows, Mac, and Linux." />
+  <meta property="og:url" content="https://deathlegionteamlk.github.io/dl-code/" />
+  <meta property="og:image" content="https://deathlegionteamlk.github.io/dl-code/og-image.png" />
+  <meta property="og:site_name" content="DL Code" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DL Code — Free AI-Powered Code Editor" />
+  <meta name="twitter:description" content="Cross-platform code editor with Claude AI, agentic builder, and unlimited free local AI via Ollama." />
+  <meta name="twitter:image" content="https://deathlegionteamlk.github.io/dl-code/og-image.png" />
+  <meta name="twitter:creator" content="@deathlegionteam" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="favicon.png" />
+
+  <!-- Structured Data (JSON-LD) for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "DL Code",
+    "operatingSystem": "Windows, macOS, Linux",
+    "applicationCategory": "DeveloperApplication",
+    "description": "Free AI-powered cross-platform code editor with built-in Claude AI assistant, agentic app builder, and unlimited free AI via Ollama.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Death Legion Team",
+      "url": "https://github.com/deathlegionteamlk"
+    },
+    "featureList": [
+      "Syntax highlighting for 60+ programming languages",
+      "Built-in AI assistant powered by Claude",
+      "Agentic app builder — describe an app, AI builds it",
+      "Free unlimited AI via Ollama (local models)",
+      "Integrated terminal with real PTY",
+      "Git integration",
+      "Cross-file search with regex",
+      "Plugin/extension system",
+      "Multi-cursor editing",
+      "Cross-platform (Windows, macOS, Linux)"
+    ],
+    "downloadUrl": "https://github.com/deathlegionteamlk/dl-code/releases/latest"
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Top nav -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__brand">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+          <rect x="2" y="2" width="20" height="20" rx="4" fill="#1e1f22" stroke="#3574f0" stroke-width="1.5"/>
+          <path d="M8 8l-3 4 3 4M16 8l3 4-3 4M13 7l-2 10" stroke="#3574f0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>DL Code</span>
+      </a>
+      <nav class="nav__links">
+        <a href="#features">Features</a>
+        <a href="#ai">AI</a>
+        <a href="#builder">App Builder</a>
+        <a href="#download">Download</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://github.com/deathlegionteamlk/dl-code" class="nav__cta">GitHub</a>
+      </nav>
+      <button class="nav__menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav__links').classList.toggle('nav__links--open')">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__bg-glow"></div>
+      <div class="container hero__inner">
+        <div class="hero__badge">
+          <span class="pulse"></span>
+          <span>v1.0.0 now available — Free forever</span>
+        </div>
+        <h1 class="hero__title">
+          The code editor that<br/>
+          <span class="hero__title-accent">writes code with you</span>
+        </h1>
+        <p class="hero__subtitle">
+          DL Code is a free, cross-platform code editor with a built-in AI agent.
+          Describe what you want to build in plain English — DL Code's AI scaffolds the project,
+          writes the code, and installs the dependencies. Plus unlimited free AI via Ollama.
+        </p>
+        <div class="hero__cta">
+          <a href="#download" class="btn btn--primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Download Free
+          </a>
+          <a href="https://github.com/deathlegionteamlk/dl-code" class="btn btn--ghost">
+            View on GitHub →
+          </a>
+        </div>
+        <div class="hero__platforms">
+          <span>Available for:</span>
+          <span class="hero__platform">Windows 10+</span>
+          <span class="hero__platform">macOS</span>
+          <span class="hero__platform">Linux</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS BAR -->
+    <section class="stats">
+      <div class="container stats__grid">
+        <div class="stat">
+          <div class="stat__num">60+</div>
+          <div class="stat__label">Languages supported</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">FREE</div>
+          <div class="stat__label">Unlimited AI (Ollama)</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">3</div>
+          <div class="stat__label">Platforms (Win/Mac/Linux)</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">100%</div>
+          <div class="stat__label">Open &amp; extensible</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Features</span>
+          <h2 class="section__title">Everything you need to ship code faster</h2>
+          <p class="section__subtitle">A modern code editor inspired by JetBrains IDEs and the extensibility of VS Code — but with AI built in from the ground up.</p>
+        </div>
+
+        <div class="features__grid">
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--blue">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M8 9l-3 3 3 3M16 9l3 3-3 3M13 6l-2 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Syntax Highlighting for 60+ Languages</h3>
+            <p>TypeScript, JavaScript, Python, Rust, Go, Java, C++, C#, Ruby, PHP, Swift, Kotlin, Scala, HTML, CSS, JSON, YAML, SQL, Docker, Lua, Haskell, Elixir, Erlang, Clojure, Perl, Dart, R, Julia, OCaml, and many more — all with proper syntax highlighting powered by the Monaco editor.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--purple">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2L3 7v10l9 5 9-5V7l-9-5z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 22V12M3 7l9 5 9-5" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Built-in AI Assistant</h3>
+            <p>Chat with Claude right inside the editor. Ask it to explain code, refactor functions, generate tests, or fix bugs. The AI sees your file context, your selection, and your workspace — so it gives you answers that actually fit your codebase.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--green">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Agentic App Builder</h3>
+            <p>Describe an app in plain English — "build me a todo list with React and TypeScript" — and DL Code's AI agent scaffolds the project, writes every file, and installs dependencies. A real Cursor-style builder that runs on your machine.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--orange">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" stroke-width="2"/><path d="M3 8h18M7 12h2M7 16h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Real Integrated Terminal</h3>
+            <p>A real PTY-backed terminal running bash, zsh, PowerShell, or cmd.exe — not a fake console. Multiple tabs, full color support, web links, and search. Run your builds, git commands, and tests without ever leaving the editor.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--red">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="6" cy="6" r="2.5" stroke="currentColor" stroke-width="2"/><circle cx="6" cy="18" r="2.5" stroke="currentColor" stroke-width="2"/><circle cx="18" cy="12" r="2.5" stroke="currentColor" stroke-width="2"/><path d="M8 7v8M8 15h8" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3>Git Integration</h3>
+            <p>Source control panel with staged and unstaged changes, one-click stage/unstage, commit, branch switching, diff viewer, and full history. DL Code uses the real <code>simple-git</code> library under the hood — no shelling out to git CLI.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--cyan">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="14" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="3" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="14" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3>Plugin &amp; Extension System</h3>
+            <p>A real extension host that dynamically loads extensions from disk. Build your own themes, language packs, formatters, linters, and tools using a VS Code-compatible API. Ship extensions as folders — no packaging required.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--pink">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="2"/><path d="M16 16l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Cross-File Search</h3>
+            <p>Find anything across your entire workspace with regex support, case sensitivity, whole word matching, and file include/exclude globs. Results show context lines around each match — click to jump straight to the file.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--yellow">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 17l6-6-6-6M12 19h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Command Palette &amp; Quick Open</h3>
+            <p>Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> for the command palette. Press <kbd>Ctrl</kbd>+<kbd>P</kbd> to jump to any file. DL Code respects your muscle memory from VS Code and JetBrains — every shortcut just works.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--teal">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3>Cross-Platform</h3>
+            <p>One editor, three platforms. DL Code runs natively on Windows 10+, macOS (Intel and Apple Silicon via Rosetta), and Linux (AppImage, .deb, and portable tarball). Your settings, themes, and extensions sync across machines.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI SECTION -->
+    <section id="ai" class="section section--ai">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">AI Assistant</span>
+          <h2 class="section__title">Three ways to use AI — pick your favorite</h2>
+          <p class="section__subtitle">DL Code works with Claude Code CLI, the Anthropic API, or completely free with local models via Ollama. No lock-in, no subscription required.</p>
+        </div>
+
+        <div class="ai-providers">
+          <div class="ai-provider ai-provider--free">
+            <div class="ai-provider__badge">FREE • UNLIMITED</div>
+            <h3>Ollama (Local AI)</h3>
+            <p>Run AI models directly on your machine. No API key, no rate limits, no usage caps — completely free forever. Works offline.</p>
+            <ul>
+              <li>✓ Qwen 2.5 Coder (recommended)</li>
+              <li>✓ DeepSeek Coder v2</li>
+              <li>✓ CodeLlama</li>
+              <li>✓ Llama 3.2, Mistral, and 50+ more</li>
+            </ul>
+            <code class="ai-provider__cmd">$ ollama pull qwen2.5-coder:32b</code>
+          </div>
+
+          <div class="ai-provider ai-provider--powerful">
+            <div class="ai-provider__badge ai-provider__badge--pro">MOST POWERFUL</div>
+            <h3>Claude Code Agent</h3>
+            <p>The full Claude Code CLI runs as an agent inside DL Code. It can read and write files, run shell commands, and edit code in place — autonomously.</p>
+            <ul>
+              <li>✓ Reads &amp; writes files</li>
+              <li>✓ Runs shell commands</li>
+              <li>✓ Multi-step reasoning</li>
+              <li>✓ Best for complex refactors</li>
+            </ul>
+            <code class="ai-provider__cmd">$ npm i -g @anthropic/claude-code</code>
+          </div>
+
+          <div class="ai-provider ai-provider--api">
+            <div class="ai-provider__badge">DIRECT API</div>
+            <h3>Anthropic API</h3>
+            <p>Direct chat completions via the Anthropic HTTP API. Best for quick inline suggestions when you don't want to install anything locally.</p>
+            <ul>
+              <li>✓ Claude Sonnet 4.5</li>
+              <li>✓ Claude Opus 4.1</li>
+              <li>✓ Claude Haiku 4.5</li>
+              <li>✓ Pay-per-use pricing</li>
+            </ul>
+            <code class="ai-provider__cmd">Add API key in Settings → AI</code>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BUILDER SECTION -->
+    <section id="builder" class="section section--builder">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Agentic Builder</span>
+          <h2 class="section__title">Describe an app. Get a working project.</h2>
+          <p class="section__subtitle">The agentic builder turns natural language into real, runnable code. It scaffolds the project, writes every file, and installs dependencies — all on your machine.</p>
+        </div>
+
+        <div class="builder-demo">
+          <div class="builder-demo__input">
+            <div class="builder-demo__label">You type:</div>
+            <div class="builder-demo__prompt">"Build me a real-time chat app with React, Node.js, and WebSocket"</div>
+          </div>
+          <div class="builder-demo__arrow">↓</div>
+          <div class="builder-demo__output">
+            <div class="builder-demo__label">DL Code builds:</div>
+            <ul class="builder-demo__files">
+              <li>📄 package.json</li>
+              <li>📄 server/index.js — WebSocket server</li>
+              <li>📄 src/App.tsx — React chat UI</li>
+              <li>📄 src/components/MessageList.tsx</li>
+              <li>📄 src/components/ChatInput.tsx</li>
+              <li>📄 src/hooks/useWebSocket.ts</li>
+              <li>📄 README.md</li>
+              <li>📄 .gitignore</li>
+              <li>⚡ npm install</li>
+              <li>⚡ npm run dev</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="builder-examples">
+          <h3>Try these prompts:</h3>
+          <div class="builder-examples__grid">
+            <div class="builder-example">"A todo list app with React and TypeScript"</div>
+            <div class="builder-example">"A REST API for a blog with Node.js and Express"</div>
+            <div class="builder-example">"A Python script that scrapes weather data"</div>
+            <div class="builder-example">"A CLI tool that converts JSON to YAML"</div>
+            <div class="builder-example">"A static landing page for a coffee shop"</div>
+            <div class="builder-example">"A Next.js blog with MDX"</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD -->
+    <section id="download" class="section section--download">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Download</span>
+          <h2 class="section__title">Get DL Code — free, forever</h2>
+          <p class="section__subtitle">Pick your platform and start coding in minutes. No signup, no email, no tracking.</p>
+        </div>
+
+        <div class="downloads">
+          <div class="download-card">
+            <div class="download-card__icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none"><path d="M3 5l9-2 9 2v14l-9 2-9-2V5z" stroke="currentColor" stroke-width="1.5"/><path d="M3 5l9 14 9-14" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <h3>Windows</h3>
+            <p>Windows 10 or later (64-bit)</p>
+            <div class="download-card__size">~154 MB · Portable ZIP</div>
+            <a href="https://github.com/deathlegionteamlk/dl-code/releases/latest/download/DL-Code-1.0.0-win-x64-portable.zip" class="btn btn--primary">
+              Download for Windows
+            </a>
+            <div class="download-card__note">Just unzip and run <code>DL Code.exe</code></div>
+          </div>
+
+          <div class="download-card">
+            <div class="download-card__icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none"><path d="M18 9c0-3.3-2.7-6-6-6S6 5.7 6 9c-2.2 0-4 1.8-4 4 0 2.2 1.8 4 4 4h12c2.2 0 4-1.8 4-4 0-2.2-1.8-4-4-4z" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <h3>macOS</h3>
+            <p>Intel Macs (Apple Silicon via Rosetta)</p>
+            <div class="download-card__size">~345 MB · DL Code.app</div>
+            <a href="https://github.com/deathlegionteamlk/dl-code/releases/latest/download/DL-Code-1.0.0-macos-x64.zip" class="btn btn--primary">
+              Download for macOS
+            </a>
+            <div class="download-card__note">Unzip, drag to Applications, right-click → Open</div>
+          </div>
+
+          <div class="download-card">
+            <div class="download-card__icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <h3>Linux</h3>
+            <p>AppImage, .deb, or tar.gz</p>
+            <div class="download-card__size">~102-144 MB</div>
+            <div class="download-card__multiple">
+              <a href="https://github.com/deathlegionteamlk/dl-code/releases/latest/download/DL-Code-1.0.0-linux-x86_64.AppImage" class="btn btn--primary">AppImage</a>
+              <a href="https://github.com/deathlegionteamlk/dl-code/releases/latest/download/DL-Code_1.0.0_amd64.deb" class="btn btn--ghost btn--small">.deb</a>
+              <a href="https://github.com/deathlegionteamlk/dl-code/releases/latest/download/DL-Code-1.0.0-linux-x64.tar.gz" class="btn btn--ghost btn--small">.tar.gz</a>
+            </div>
+            <div class="download-card__note">AppImage: <code>chmod +x &amp;&amp; ./</code></div>
+          </div>
+        </div>
+
+        <div class="download-all">
+          <a href="https://github.com/deathlegionteamlk/dl-code/releases/latest" class="link-arrow">
+            View all releases on GitHub →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container container--narrow">
+        <div class="section__header">
+          <span class="section__eyebrow">FAQ</span>
+          <h2 class="section__title">Questions, answered</h2>
+        </div>
+
+        <div class="faq">
+          <details class="faq__item">
+            <summary>Is DL Code really free?</summary>
+            <p>Yes — DL Code is 100% free, forever. There are no subscriptions, no usage caps, and no ads. The AI features work with local models via Ollama, which is also free and unlimited. If you want to use Claude (Anthropic's API), that's a separate paid service from Anthropic — but you don't need it to use DL Code.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>How is DL Code different from VS Code?</summary>
+            <p>DL Code uses the same Monaco editor as VS Code, so the editing experience feels familiar. The differences: (1) AI is built in from the start — no extension needed. (2) The agentic builder can scaffold entire projects from a prompt. (3) The UI is inspired by JetBrains IDEs, with a darker, denser, more focused layout. (4) Free unlimited AI via Ollama works out of the box.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Does DL Code support my programming language?</summary>
+            <p>Probably — DL Code ships with syntax highlighting for 60+ languages including TypeScript, JavaScript, Python, Rust, Go, Java, C, C++, C#, Ruby, PHP, Swift, Kotlin, Scala, HTML, CSS, JSON, YAML, SQL, Docker, Lua, Haskell, Elixir, Erlang, Clojure, Perl, Dart, R, Julia, OCaml, and many more. If your language isn't supported, you can add it via an extension.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>How does the agentic builder work?</summary>
+            <p>You describe an app in plain English ("build me a todo list with React and TypeScript"). DL Code's AI agent — powered by Claude Code CLI, Ollama, or the Anthropic API — generates the project structure, writes all the code files, creates a README, and runs the install command. The whole thing happens on your machine; nothing is sent to a cloud server (unless you pick the Anthropic API).</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Can I use DL Code offline?</summary>
+            <p>Yes — if you pick the Ollama provider for AI, DL Code works completely offline. Ollama runs AI models locally on your machine, so you can code on a plane, on a train, or anywhere with no internet. The editor itself, the terminal, Git, and search all work offline too.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Is my code sent to the cloud?</summary>
+            <p>Only if you explicitly choose the Anthropic API provider. With Ollama, everything stays on your machine. With Claude Code CLI, the agent runs locally but may make API calls to Anthropic as part of its reasoning — same as running Claude Code in your terminal.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Can I install extensions?</summary>
+            <p>Yes — DL Code has a real extension host. Extensions live in <code>userData/extensions/&lt;publisher.name&gt;/</code> as folders with a <code>package.json</code> and <code>main.js</code>. The API is compatible with VS Code's extension API, so many VS Code extensions can be ported with minimal changes.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>What's the system requirements?</summary>
+            <p>Any 64-bit Windows 10+, macOS 10.15+, or Linux distro from the last 5 years. 4GB RAM minimum, 8GB recommended. For local AI via Ollama, you'll want 8GB+ RAM (16GB+ for larger models).</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container cta__inner">
+        <h2>Start building with AI today</h2>
+        <p>Free download. No signup. No limits.</p>
+        <a href="#download" class="btn btn--primary btn--large">Download DL Code</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="/" class="footer__logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <rect x="2" y="2" width="20" height="20" rx="4" fill="#1e1f22" stroke="#3574f0" stroke-width="1.5"/>
+            <path d="M8 8l-3 4 3 4M16 8l3 4-3 4M13 7l-2 10" stroke="#3574f0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>DL Code</span>
+        </a>
+        <p class="footer__tagline">A free AI-powered code editor for Windows, Mac, and Linux.</p>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#ai">AI Assistant</a>
+          <a href="#builder">App Builder</a>
+          <a href="#download">Download</a>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <a href="https://github.com/deathlegionteamlk/dl-code">GitHub</a>
+          <a href="https://github.com/deathlegionteamlk/dl-code/releases">Releases</a>
+          <a href="https://github.com/deathlegionteamlk/dl-code/issues">Report Issue</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="footer__col">
+          <h4>AI Providers</h4>
+          <a href="https://ollama.com">Ollama (Free)</a>
+          <a href="https://claude.ai/code">Claude Code</a>
+          <a href="https://console.anthropic.com">Anthropic API</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2026 DL Code by Death Legion Team. Built with Electron, React, and TypeScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Schema.org BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://deathlegionteamlk.github.io/dl-code/" },
+      { "@type": "ListItem", "position": 2, "name": "Download", "item": "https://deathlegionteamlk.github.io/dl-code/#download" }
+    ]
+  }
+  </script>
+
+  <!-- robots.txt hint: index everything -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "DL Code",
+    "url": "https://deathlegionteamlk.github.io/dl-code/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://github.com/deathlegionteamlk/dl-code/issues?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</body>
+</html>
