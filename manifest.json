@@ -1,0 +1,47 @@
+{
+  "name": "DL Code",
+  "short_name": "DL Code",
+  "description": "Free AI-powered cross-platform code editor with built-in Claude AI, agentic app builder, and unlimited free AI via Ollama.",
+  "start_url": "https://deathlegionteamlk.github.io/dl-code/",
+  "scope": "https://deathlegionteamlk.github.io/dl-code/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f1013",
+  "theme_color": "#0f1013",
+  "categories": ["developer", "productivity", "utilities"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "https://deathlegionteamlk.github.io/dl-code/favicon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://deathlegionteamlk.github.io/dl-code/favicon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://deathlegionteamlk.github.io/dl-code/og-image.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "label": "DL Code editor with AI assistant"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "windows",
+      "url": "https://github.com/deathlegionteamlk/dl-code/releases/latest/download/DL-Code-1.0.0-win-x64-portable.zip"
+    },
+    {
+      "platform": "macos",
+      "url": "https://github.com/deathlegionteamlk/dl-code/releases/latest/download/DL-Code-1.0.0-macos-x64.zip"
+    }
+  ],
+  "prefer_related_applications": true
+}

@@ -1,0 +1,25 @@
+/* DL Code - humans.txt */
+/* http://humanstxt.org */
+
+/* TEAM */
+Founder: Death Legion Team
+Twitter: @deathlegionteam
+Website: https://deathlegion.netlify.app
+Location: Sri Lanka
+
+/* THANKS */
+Monaco Editor (Microsoft)
+Electron
+React
+xterm.js
+node-pty
+simple-git
+Ollama
+Anthropic (Claude)
+
+/* SITE */
+Last update: 2026-07-14
+Language: English
+Standards: HTML5, CSS3, ES2022
+Components: Vite, TypeScript
+Software: DL Code
