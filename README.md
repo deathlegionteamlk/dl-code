@@ -1,105 +1,113 @@
-# DL Code
-
 <div align="center">
 
-![DL Code](https://deathlegionteamlk.github.io/dl-code/og-image.png)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=220&section=header&text=DL%20Code&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=A%20free%20AI%20code%20editor%20that%20doesn't%20nag%20you%20for%20a%20subscription&descAlignY=55&descSize=18" width="100%"/>
 
-**A free AI-powered code editor for Windows, macOS, and Linux.**
+<img src="https://readme-typing-svg.demolab.com/?lines=Claude+built+in.+Ollama+built+in.+No+API+key+required.;Describe+an+app,+watch+it+get+scaffolded.;Windows.+macOS.+Linux.+Pick+one.&font=Fira+Code&size=22&pause=1500&color=00D9FF&center=true&vCenter=true&width=700&height=50&duration=3000" alt="typing animation"/>
 
-Built with a built-in Claude AI assistant, an agentic app builder, and unlimited free AI via Ollama.
+<br/>
 
-[![Download](https://img.shields.io/badge/Download-Free-brightgreen?style=for-the-badge)](https://github.com/deathlegionteamlk/dl-code/releases/latest)
-[![Platforms](https://img.shields.io/badge/Platforms-Win%20%7C%20Mac%20%7C%20Linux-blue?style=for-the-badge)](https://github.com/deathlegionteamlk/dl-code/releases/latest)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.0-orange?style=for-the-badge)](https://github.com/deathlegionteamlk/dl-code/releases/latest)
+[![Download](https://img.shields.io/badge/⬇️_Download-Free-brightgreen?style=for-the-badge)](https://github.com/deathlegionteamlk/dl-code/releases/latest)
+[![Platforms](https://img.shields.io/badge/🖥️_Platforms-Win%20%7C%20Mac%20%7C%20Linux-blue?style=for-the-badge)](https://github.com/deathlegionteamlk/dl-code/releases/latest)
+[![License](https://img.shields.io/badge/📄_License-MIT-yellow?style=for-the-badge)](LICENSE)
+[![Version](https://img.shields.io/badge/🏷️_Version-1.0.0-orange?style=for-the-badge)](https://github.com/deathlegionteamlk/dl-code/releases/latest)
 
-[🌐 Website](https://deathlegionteamlk.github.io/dl-code/) · [📦 Download](https://github.com/deathlegionteamlk/dl-code/releases/latest) · [🐛 Report Bug](https://github.com/deathlegionteamlk/dl-code/issues) · [💡 Request Feature](https://github.com/deathlegionteamlk/dl-code/issues)
+**[🌐 Website](https://deathlegionteamlk.github.io/dl-code/)** · **[📦 Download](https://github.com/deathlegionteamlk/dl-code/releases/latest)** · **[🐛 Report Bug](https://github.com/deathlegionteamlk/dl-code/issues)** · **[💡 Request Feature](https://github.com/deathlegionteamlk/dl-code/issues)**
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%"/>
 
 </div>
 
----
+## 🤔 What is this thing?
 
-## What is DL Code?
+DL Code is a code editor. We got tired of every "AI editor" on the market either locking the good models behind a subscription or shipping AI as a bolted-on sidebar that feels like an afterthought. So we built one where the AI is the point, and it costs nothing if you don't want it to.
 
-DL Code is a modern, cross-platform code editor that puts AI at the center of your workflow. It's not just a text editor with an AI plugin bolted on — AI is built in from the ground up. Describe an app in plain English, and DL Code's agentic builder scaffolds the project, writes every file, and installs the dependencies for you.
+Under the hood it's Monaco — the same editor VS Code uses — so your fingers already know where everything is. The look and feel borrows from JetBrains: dark, dense, no wasted pixels.
 
-It uses the same Monaco editor that powers VS Code, so the editing experience feels instantly familiar. The UI is inspired by JetBrains IDEs — dark, dense, focused, and built for long coding sessions.
+Run it with [Ollama](https://ollama.com) and you get a full AI coding assistant with zero API keys, zero rate limits, and zero recurring cost. It runs on your machine. Nobody's billing you per token.
 
-**Best of all: it's completely free.** The AI features work with local models via [Ollama](https://ollama.com), so you get unlimited AI assistance with no API keys, no rate limits, and no usage caps. Forever.
+<div align="center">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%"/>
+</div>
 
-## ✨ Key Features
+## ✨ What it actually does
 
-- **🤖 Built-in AI Assistant** — Chat with Claude right inside the editor. Ask it to explain code, refactor functions, generate tests, or fix bugs. The AI sees your file context, your selection, and your workspace.
-- **⚡ Agentic App Builder** — Describe an app in plain English and DL Code's AI agent builds the entire project: scaffolds files, writes code, installs dependencies. A real Cursor-style builder that runs on your machine.
-- **🆓 Free Unlimited AI (Ollama)** — Run AI models locally with Ollama. No API key, no rate limits, no usage caps. Works offline. Supports Qwen 2.5 Coder, DeepSeek Coder v2, CodeLlama, Llama 3.2, and 50+ more.
-- **🎨 Syntax Highlighting for 60+ Languages** — TypeScript, JavaScript, Python, Rust, Go, Java, C++, C#, Ruby, PHP, Swift, Kotlin, Scala, HTML, CSS, JSON, YAML, SQL, Docker, Lua, Haskell, Elixir, Erlang, Clojure, Perl, Dart, R, Julia, OCaml, and many more.
-- **💻 Real Integrated Terminal** — A PTY-backed terminal running bash, zsh, PowerShell, or cmd.exe. Multiple tabs, full color support, web links, and search.
-- **🔄 Git Integration** — Source control panel with staged/unstaged changes, one-click stage/unstage, commit, branch switching, diff viewer, and full history.
-- **🔌 Plugin & Extension System** — A real extension host that dynamically loads extensions from disk. VS Code-compatible API for themes, language packs, formatters, linters, and tools.
-- **🔍 Cross-File Search** — Find anything across your entire workspace with regex support, case sensitivity, whole word matching, and file globs.
-- **⌨️ Command Palette & Quick Open** — Press `Ctrl+Shift+P` for commands, `Ctrl+P` to jump to any file. All your muscle memory from VS Code and JetBrains works here.
-- **🌍 Cross-Platform** — One editor, three platforms. Windows 10+, macOS (Intel and Apple Silicon via Rosetta), and Linux (AppImage, .deb, and tarball).
+- 🤖 **AI assistant, built in** — Claude sits inside the editor. Point it at a function, ask it to explain, refactor, write tests, kill a bug. It reads your open file, your selection, your workspace, not just whatever text you paste in.
+- ⚡ **Agentic app builder** — Type "a todo app with React and TypeScript" and it scaffolds the whole thing: files, code, dependencies installed. Runs locally, no cloud round-trip required.
+- 🆓 **Free AI via Ollama** — No API key. No rate limit. No usage cap. Works with the plane's wifi off. Supports Qwen 2.5 Coder, DeepSeek Coder v2, CodeLlama, Llama 3.2, and 50+ others.
+- 🎨 **60+ languages highlighted** — TypeScript, Python, Rust, Go, Kotlin, Swift, SQL, Dockerfiles, Haskell, Elixir — if it's a real language, it's probably in there.
+- 💻 **A terminal that's actually a terminal** — PTY-backed, bash/zsh/PowerShell/cmd, tabs, colors, clickable links. Not a fake text box pretending to be one.
+- 🔄 **Git, without leaving the editor** — stage, unstage, commit, branch, diff, full history.
+- 🔌 **Real extensions** — a proper extension host that loads from disk, VS Code-compatible API. Themes, linters, formatters, whatever you want to bolt on.
+- 🔍 **Search that spans the whole workspace** — regex, case sensitivity, whole word, globs.
+- ⌨️ **Command Palette + Quick Open** — `Ctrl+Shift+P` and `Ctrl+P` work exactly like you expect.
+- 🌍 **Windows, macOS, Linux** — one codebase, three platforms, no "coming soon."
+
+<div align="center">
+<img src="https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif" width="450" alt="demo placeholder — swap for a real screen recording"/>
+
+*(swap this for an actual screen recording of the editor once you've got one — that sells it way better than any of these words)*
+</div>
 
 ## 📦 Download
 
-Pre-built binaries for every platform are available on the [Releases page](https://github.com/deathlegionteamlk/dl-code/releases/latest). Just download and run — no installers, no signup, no tracking.
+Grab a binary from the [Releases page](https://github.com/deathlegionteamlk/dl-code/releases/latest). No installer wizard, no account, no telemetry phoning home before you've even opened a file.
 
 | Platform | File | Size | How to run |
 |----------|------|------|------------|
-| **Windows** | `DL-Code-1.0.0-win-x64-portable.zip` | ~154 MB | Unzip, run `DL Code.exe` |
-| **macOS** | `DL-Code-1.0.0-macos-x64.zip` | ~345 MB | Unzip, drag to Applications, right-click → Open |
-| **Linux (AppImage)** | `DL-Code-1.0.0-linux-x86_64.AppImage` | ~144 MB | `chmod +x && ./DL-Code-*.AppImage` |
-| **Linux (.deb)** | `DL-Code_1.0.0_amd64.deb` | ~102 MB | `sudo dpkg -i DL-Code_*.deb` |
-| **Linux (tar.gz)** | `DL-Code-1.0.0-linux-x64.tar.gz` | ~143 MB | Extract, run `./dl-code` |
+| 🪟 **Windows** | `DL-Code-1.0.0-win-x64-portable.zip` | ~154 MB | Unzip, run `DL Code.exe` |
+| 🍎 **macOS** | `DL-Code-1.0.0-macos-x64.zip` | ~345 MB | Unzip, drag to Applications, right-click → Open |
+| 🐧 **Linux (AppImage)** | `DL-Code-1.0.0-linux-x86_64.AppImage` | ~144 MB | `chmod +x && ./DL-Code-*.AppImage` |
+| 🐧 **Linux (.deb)** | `DL-Code_1.0.0_amd64.deb` | ~102 MB | `sudo dpkg -i DL-Code_*.deb` |
+| 🐧 **Linux (tar.gz)** | `DL-Code-1.0.0-linux-x64.tar.gz` | ~143 MB | Extract, run `./dl-code` |
 
-## 🤖 AI Setup
+## 🤖 Setting up AI
 
-DL Code supports three AI providers. Pick whichever fits your needs — you can switch between them anytime in **Settings → AI**.
+Three providers. Switch between them anytime under **Settings → AI**.
 
-### Option 1: Ollama (Free, Unlimited, Local) — Recommended
-
-[Ollama](https://ollama.com) runs AI models directly on your machine. No API key, no rate limits, no usage caps — completely free forever. Works offline.
+### 1. Ollama — free, unlimited, runs on your machine (this is the one we'd pick)
 
 ```bash
-# 1. Install Ollama from https://ollama.com
-# 2. Pull a coding model
+# install Ollama from https://ollama.com
 ollama pull qwen2.5-coder:32b
 
-# 3. That's it. DL Code auto-detects Ollama on localhost:11434.
+# that's it — DL Code finds it on localhost:11434 automatically
 ```
 
-**Recommended models for coding:**
-- `qwen2.5-coder:32b` — Best overall (recommended)
-- `deepseek-coder-v2` — Strong alternative
-- `codellama` — Meta's Code Llama
-- `llama3.2` — General purpose
+Models worth pulling:
+- `qwen2.5-coder:32b` — the one we default to for a reason
+- `deepseek-coder-v2` — a solid second opinion
+- `codellama` — Meta's, does the job
+- `llama3.2` — general purpose, not coding-specific
 
-### Option 2: Claude Code Agent (Most Powerful)
+### 2. Claude Code Agent — when you need it to actually do things
 
-The [Claude Code CLI](https://claude.ai/code) runs as an autonomous agent inside DL Code. It can read and write files, run shell commands, and edit code in place — perfect for complex multi-step refactors.
+The [Claude Code CLI](https://claude.ai/code) runs as an agent inside DL Code. It reads files, writes files, runs shell commands, edits code in place. This is the one for multi-step refactors you don't want to babysit line by line.
 
 ```bash
 npm install -g @anthropic/claude-code
 ```
 
-DL Code automatically detects Claude Code and uses it for full agent mode.
+DL Code picks it up automatically once it's installed.
 
-### Option 3: Anthropic API (Direct)
+### 3. Anthropic API — no local setup, just a key
 
-For quick inline suggestions without installing anything locally. Add your API key in **Settings → AI**. Get a key from [console.anthropic.com](https://console.anthropic.com).
+Fastest way to get inline suggestions if you don't want to install anything. Drop your key into **Settings → AI**. Keys come from [console.anthropic.com](https://console.anthropic.com).
 
-## ⚡ Agentic Builder
+<div align="center">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%"/>
+</div>
 
-The agentic builder turns natural language into real, runnable code. Open it from the AI panel → Builder tab, or from the menu: **AI → Run Claude Code Agent**.
+## ⚡ The agentic builder
 
-**How it works:**
-1. Describe what you want to build in plain English
-2. Pick a template (or let DL Code auto-detect)
-3. Pick an AI provider (Ollama for free, Claude Code for power, API for direct)
-4. Click **Build My App**
-5. Watch as the AI scaffolds the project, writes every file, and installs dependencies
+Open it from the AI panel's **Builder** tab, or **AI → Run Claude Code Agent**.
 
-**Example prompts:**
+1. Say what you want in plain English
+2. Pick a template, or don't — it'll guess
+3. Pick a provider: Ollama if you want it free, Claude Code if you want it powerful
+4. Hit **Build My App**
+5. Watch the files show up
+
+**Prompts that work fine:**
 - "A todo list app with React and TypeScript"
 - "A REST API for a blog with Node.js and Express"
 - "A Python script that scrapes weather data"
@@ -107,118 +115,105 @@ The agentic builder turns natural language into real, runnable code. Open it fro
 - "A static landing page for a coffee shop"
 - "A Next.js blog with MDX"
 
-The builder works with all three AI providers — so you can build unlimited apps for free using Ollama.
+Run it on Ollama and you can build as many of these as you want without ever touching a billing page.
 
-## 🎨 Theming
+## 🎨 Themes
 
-DL Code ships with a beautiful dark theme inspired by JetBrains Darcula. Want a different look? Switch themes in **Settings → General → Theme**, or install a theme pack from the Extensions panel.
-
-Built-in themes: DL Dark (default), DL Light, VS Dark, VS Light, High Contrast. Plus 10 more via the bundled DL Theme Pack extension.
+Default is DL Dark, a Darcula-inspired theme. Change it in **Settings → General → Theme** or pull one from Extensions. Ships with DL Dark, DL Light, VS Dark, VS Light, High Contrast, plus 10 more in the bundled DL Theme Pack.
 
 ## 🔌 Extensions
 
-DL Code has a real extension host. Extensions live in:
+Extensions live on disk, per platform:
 
 - **Windows:** `%APPDATA%/dl-code/extensions/<publisher.name>/`
 - **macOS:** `~/Library/Application Support/dl-code/extensions/<publisher.name>/`
 - **Linux:** `~/.config/dl-code/extensions/<publisher.name>/`
 
-Each extension is a folder containing:
-- `package.json` — manifest with activation events and contributions
-- `main.js` — compiled JavaScript entry point
-- `icon.png` — extension icon
+Each one is a folder: `package.json` for the manifest, `main.js` as the entry point, `icon.png` for the icon. The API lines up with VS Code's, so a lot of existing extensions port over with minimal changes.
 
-The extension API is compatible with VS Code's, so many VS Code extensions can be ported with minimal changes.
-
-## ⌨️ Keyboard Shortcuts
-
-DL Code respects your muscle memory. Most VS Code and JetBrains shortcuts work out of the box.
+## ⌨️ Keyboard shortcuts
 
 | Action | Windows/Linux | macOS |
 |--------|---------------|-------|
-| Command Palette | `Ctrl+Shift+P` | `Cmd+Shift+P` |
-| Quick Open File | `Ctrl+P` | `Cmd+P` |
-| Toggle Sidebar | `Ctrl+B` | `Cmd+B` |
-| Toggle Panel | `Ctrl+J` | `Cmd+J` |
-| Toggle Terminal | `` Ctrl+` `` | `` Cmd+` `` |
-| Search in Files | `Ctrl+Shift+F` | `Cmd+Shift+F` |
-| Open AI Chat | `Ctrl+Shift+A` | `Cmd+Shift+A` |
-| Save File | `Ctrl+S` | `Cmd+S` |
-| New File | `Ctrl+N` | `Cmd+N` |
-| Open Folder | `Ctrl+Shift+O` | `Cmd+Shift+O` |
+| 🎛️ Command Palette | `Ctrl+Shift+P` | `Cmd+Shift+P` |
+| 📂 Quick Open File | `Ctrl+P` | `Cmd+P` |
+| 📑 Toggle Sidebar | `Ctrl+B` | `Cmd+B` |
+| 📋 Toggle Panel | `Ctrl+J` | `Cmd+J` |
+| 💻 Toggle Terminal | `` Ctrl+` `` | `` Cmd+` `` |
+| 🔍 Search in Files | `Ctrl+Shift+F` | `Cmd+Shift+F` |
+| 💬 Open AI Chat | `Ctrl+Shift+A` | `Cmd+Shift+A` |
+| 💾 Save File | `Ctrl+S` | `Cmd+S` |
+| 📄 New File | `Ctrl+N` | `Cmd+N` |
+| 📁 Open Folder | `Ctrl+Shift+O` | `Cmd+Shift+O` |
 
-## 🛠️ Tech Stack
+## 🛠️ Built with
 
-DL Code is built with proven, reliable technologies:
+- **Electron 33** for the cross-platform shell
+- **React 18** for the UI
+- **TypeScript 5** everywhere
+- **Monaco Editor** — same one VS Code runs
+- **xterm.js** for the terminal
+- **node-pty** for the actual PTY
+- **simple-git** for git operations
+- **Zustand** for state
+- **Vite** for the build
 
-- **Electron 33** — Cross-platform desktop framework
-- **React 18** — UI library
-- **TypeScript 5** — Type safety throughout
-- **Monaco Editor** — The same editor that powers VS Code
-- **xterm.js** — Terminal emulator
-- **node-pty** — Real PTY for terminals
-- **simple-git** — Git operations
-- **Zustand** — State management
-- **Vite** — Build tooling
+Nothing exotic here. We picked things that work and stayed out of their way.
 
-## 📊 System Requirements
+## 📊 What you need to run it
 
-- **OS:** Windows 10+ (64-bit), macOS 10.15+, or any modern Linux distro
-- **RAM:** 4 GB minimum (8 GB recommended)
-- **Disk:** ~500 MB free space
-- **For local AI (Ollama):** 8 GB RAM minimum (16 GB+ for larger models)
+- Windows 10+ (64-bit), macOS 10.15+, or a Linux distro from the last few years
+- 4 GB RAM minimum, 8 GB if you want it to feel good
+- ~500 MB disk
+- Running Ollama locally? Budget 8 GB+ RAM, 16 GB+ if you're pulling the bigger models
 
-## 🗺️ Roadmap
+## 🗺️ What's next
 
-- [ ] Code debugger (DAP - Debug Adapter Protocol)
-- [ ] Remote development (SSH, Containers, WSL)
-- [ ] Collaborative editing (Live Share)
+- [ ] Debugger (DAP)
+- [ ] Remote dev — SSH, containers, WSL
+- [ ] Live Share-style collaborative editing
 - [ ] More language servers (Python, Go, Rust, Java)
 - [ ] Built-in formatters (Prettier, Black, gofmt, rustfmt)
 - [ ] Built-in linters (ESLint, pylint, golangci-lint)
 - [ ] Mobile companion app
-- [ ] Cloud sync for settings and extensions
+- [ ] Settings/extension sync across machines
 
-Have an idea? [Open an issue](https://github.com/deathlegionteamlk/dl-code/issues) and let us know!
+Missing something you actually want? [Open an issue](https://github.com/deathlegionteamlk/dl-code/issues) instead of just wishing for it.
 
 ## 🤝 Contributing
 
-We love contributions! Here's how to help:
-
-1. ⭐ Star this repo — it helps others discover DL Code
-2. 🐛 [Report bugs](https://github.com/deathlegionteamlk/dl-code/issues/new?labels=bug) you find
-3. 💡 [Suggest features](https://github.com/deathlegionteamlk/dl-code/issues/new?labels=enhancement) you'd love to see
-4. 🌍 Spread the word — tell a friend, share on social media
-5. 🎨 Build extensions and share them with the community
+- ⭐ Star the repo, it's the cheapest way to help
+- 🐛 [File bugs](https://github.com/deathlegionteamlk/dl-code/issues/new?labels=bug) when you hit them
+- 💡 [Pitch features](https://github.com/deathlegionteamlk/dl-code/issues/new?labels=enhancement)
+- 🌍 Tell someone who'd actually use this
+- 🎨 Build an extension, share it
 
 ## 📜 License
 
-MIT — DL Code is free to use, modify, and distribute. See [LICENSE](LICENSE) for details.
+MIT. Use it, fork it, ship it. See [LICENSE](LICENSE).
 
 ## 💬 Community
 
-- 🐛 [GitHub Issues](https://github.com/deathlegionteamlk/dl-code/issues) — Bug reports and feature requests
-- 💬 [GitHub Discussions](https://github.com/deathlegionteamlk/dl-code/discussions) — Questions and community chat
-- 🐦 [@deathlegionteam](https://twitter.com/deathlegionteam) — Updates and news
+- 🐛 [GitHub Issues](https://github.com/deathlegionteamlk/dl-code/issues) — bugs and feature requests
+- 💬 [GitHub Discussions](https://github.com/deathlegionteamlk/dl-code/discussions) — questions, general chat
+- 🐦 [@deathlegionteam](https://twitter.com/deathlegionteam) — updates
 
-## 🙏 Acknowledgments
+## 🙏 Built on top of
 
-DL Code stands on the shoulders of giants:
-
-- **[Monaco Editor](https://microsoft.github.io/monaco-editor/)** by Microsoft — the editor that powers VS Code
-- **[Electron](https://www.electronjs.org/)** — cross-platform desktop apps with web tech
-- **[React](https://react.dev/)** — UI library by Meta
-- **[xterm.js](https://xtermjs.org/)** — terminal emulator
-- **[Ollama](https://ollama.com/)** — local AI for everyone
-- **[Anthropic](https://anthropic.com/)** — Claude AI
-- **[simple-git](https://github.com/steveukx/git-js)** — Git for Node.js
-
----
+- [Monaco Editor](https://microsoft.github.io/monaco-editor/) — Microsoft's editor, the one VS Code runs on
+- [Electron](https://www.electronjs.org/) — the desktop shell
+- [React](https://react.dev/) — UI
+- [xterm.js](https://xtermjs.org/) — terminal emulator
+- [Ollama](https://ollama.com/) — local AI, no strings
+- [Anthropic](https://anthropic.com/) — Claude
+- [simple-git](https://github.com/steveukx/git-js) — git for Node
 
 <div align="center">
 
-**[Download DL Code](https://github.com/deathlegionteamlk/dl-code/releases/latest)** · **[Visit Website](https://deathlegionteamlk.github.io/dl-code/)**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:1a1a2e&height=150&section=footer" width="100%"/>
 
-Made with ❤️ by [Death Legion Team](https://github.com/deathlegionteamlk) · Sri Lanka 🇱🇰
+**[⬇️ Download DL Code](https://github.com/deathlegionteamlk/dl-code/releases/latest)** · **[🌐 Visit Website](https://deathlegionteamlk.github.io/dl-code/)**
+
+Made by [Death Legion Team](https://github.com/deathlegionteamlk) · Sri Lanka 🇱🇰
 
 </div>
